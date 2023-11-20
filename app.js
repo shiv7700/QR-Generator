@@ -9,6 +9,8 @@ form.addEventListener("submit", function (event) {
   let empty = document.querySelector(".empty");
   let data = document.querySelector(".data");
   if (qr.value === "") {
+    let data = document.querySelector(".data");
+    data.innerHTML = "";
     empty.innerHTML = `input box is empty :)`;
     qrCodeContainer.style.display = "none";
   } else {
