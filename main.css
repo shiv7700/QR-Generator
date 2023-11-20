@@ -61,3 +61,9 @@ canvas {
     display: none;
   }
 }
+
+@media only screen and (max-width: 328px) {
+  canvas {
+    width: 90%;
+  }
+}
