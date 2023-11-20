@@ -20,3 +20,30 @@ body {
 .header h2 {
   padding: 10px 0px 10px 10px;
 }
+
+input {
+  padding: 5px 5px 5px 5px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+form h2 {
+  margin-left: 20px;
+}
+
+form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+canvas {
+  margin-left: 20px;
+}
+
+.data {
+  margin-left: 20px;
+}
+
+.qr {
+  width: 25%;
+}

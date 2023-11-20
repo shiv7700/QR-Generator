@@ -12,23 +12,25 @@
 <body>
 
     <div class="header">
-        <h2>QR Generator</h2>
+        <h2>QR Code Generator</h2>
     </div>
 
     <div>
         <form>
-            <input type="text" class="qr">
-            <input type="reset" value="Rest">
+
+            <h2>Enter any text for QR :-</h2>
+            <input type="text" class="qr" placeholder="eg,www.google.com"> <br>
+            <input type="reset" class="clear">
             <input type="submit" value="Create">
         </form>
     </div>
 
-
+    <h2 class="data"></h2>
     <canvas class="qr-code"></canvas>
+    <h1 class="empty"></h1>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> -->
+
     <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
-
     <script src="./app.js"></script>
 </body>
 
