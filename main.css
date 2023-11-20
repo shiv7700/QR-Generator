@@ -36,14 +36,28 @@ form {
   padding-bottom: 20px;
 }
 
+button {
+  padding: 5px 5px 5px 5px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
 canvas {
   margin-left: 20px;
 }
 
 .data {
+  margin-top: 5px;
+  margin-bottom: 5px;
   margin-left: 20px;
 }
 
 .qr {
   width: 25%;
+}
+
+@media print {
+  div {
+    display: none;
+  }
 }

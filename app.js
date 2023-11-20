@@ -1,5 +1,6 @@
 const form = document.querySelector("form");
 const reset = document.querySelector(".clear");
+const print = document.querySelector(".print");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -25,4 +26,8 @@ reset.addEventListener("click", function () {
   data.innerHTML = "";
   let qrCodeContainer = document.querySelector(".qr-code");
   qrCodeContainer.remove();
+});
+
+print.addEventListener("click", () => {
+  window.print();
 });
