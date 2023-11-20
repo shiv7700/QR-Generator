@@ -8,10 +8,12 @@ form.addEventListener("submit", function (event) {
   let qrCodeContainer = document.querySelector(".qr-code");
   let empty = document.querySelector(".empty");
   let data = document.querySelector(".data");
-  qrCodeContainer.style.display = "inline-block";
   if (qr.value === "") {
     empty.innerHTML = `input box is empty :)`;
+    qrCodeContainer.style.display = "none";
   } else {
+    qrCodeContainer.style.display = "inline-block";
+    empty.innerHTML = "";
     data.innerHTML = "QR Code :-";
     let qrs = new QRious({
       element: qrCodeContainer,
@@ -19,6 +21,7 @@ form.addEventListener("submit", function (event) {
       size: 300,
     });
   }
+
   qr.value = "";
 });
 
