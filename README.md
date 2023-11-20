@@ -1,4 +1,3 @@
-# Color-Switcher
+# QR-Generator
 
-Creating a color switcher in JavaScript involves manipulating the styles of HTML elements dynamically.A color switcher that toggles between many colors (e.g., red and blue) when a button is clicked. You can extend and customize this example based on your needs.just add a new span element with color you want to changed.
-"# QR-Generator" 
+Generate QR codes effortlessly with this simple web application. Enter text or a URL, click a button, and instantly get a QR code ready for use. Built with JavaScript and hosted on GitHub Pages for easy access. Share information seamlessly by converting it into QR codes using this intuitive generator.
