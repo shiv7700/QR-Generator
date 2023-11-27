@@ -10,3 +10,5 @@ qrious is used for generating qr code
 console.log("Name of QR library => qrious");
 console.log("https://www.npmjs.com/package/qrious");
 ```
+
+## deployed link : https://shiv7700.github.io/QR-Generator
